@@ -34,9 +34,9 @@ function TeamSection() {
         <Col lg="5">
             <TeamCard 
             quote="Take the first step today <br /> In the stairs to Reach the Cloud" 
-            image={Madhav} title="Madhavakumar D" 
+            image={Madhav} title="Rahul Kothuri" 
             designation="AWS Cloud Club Captain"
-            connect="https://www.linkedin.com/in/madhavakumar-dhandapani/" />
+            connect="https://www.linkedin.com/in/rahul-kothuri-565717186/" />
         </Col>
       </Row>
       <Row className='members-row-two'>
