@@ -19,7 +19,7 @@ function Credits() {
                         &nbsp;and&nbsp;
                         <NavLink to= "https://www.linkedin.com/in/jeswinjosephj/" style={{ textDecoration: 'none' }}>
                             <span className='gradient-text'>
-                                Jeswin Joseph J
+                                Rahul Kothuri
                             </span>
                         </NavLink>
                     </h6>
