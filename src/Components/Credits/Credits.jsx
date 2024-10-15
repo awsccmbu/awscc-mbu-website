@@ -11,15 +11,15 @@ function Credits() {
                 <Col className='credits'>
                     <h6 className='center'> 
                         Designed and Developed by&nbsp;
-                        <NavLink to = "https://www.linkedin.com/in/hrishab59/" style={{ textDecoration: 'none' }} >
+                        <NavLink to = "https://www.linkedin.com/in/rahul-kothuri-565717186/" style={{ textDecoration: 'none' }} >
                             <span className='gradient-text'>
-                                Rishab H
+                                Rahul K
                             </span> 
                         </NavLink>
                         &nbsp;and&nbsp;
-                        <NavLink to= "https://www.linkedin.com/in/jeswinjosephj/" style={{ textDecoration: 'none' }}>
+                        <NavLink to= "https://www.linkedin.com/in/leena-geepalem/" style={{ textDecoration: 'none' }}>
                             <span className='gradient-text'>
-                                Rahul Kothuri
+                                Leena G
                             </span>
                         </NavLink>
                     </h6>
