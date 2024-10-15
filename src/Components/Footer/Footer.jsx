@@ -11,7 +11,7 @@ import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
 import SocialLinks from "../SocialLinks/SocailLinks";
 
 import Lighthouse from "../../assets/img/lighthouse.png";
-import nammaChennai from "../../assets/img/nammaChennai.png";
+import tirupatiicon from "../../assets/img/tirupatiicon.jpg";
 
 function Footer() {
     return (
@@ -54,7 +54,7 @@ function Footer() {
                 <div style={{position: "absolute", left: 30, bottom: 0}} className="chennai-identity">
                     <img src={tirupatiicon} alt="Tirupathi Footer Logo" width={200} />
                     
-                    <img src={lighthouse} alt="Logo" width={200} />
+                    <img src={Lighthouse} alt="Logo" width={200} />
                 </div>
             </Col>
 
