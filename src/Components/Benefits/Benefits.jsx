@@ -3,7 +3,7 @@
 /**
  * Benefits.jsx
  * Description: Component for rendering about section in About Route.
- * Author: Jeswin Joseph J
+ * Author: Rahul
  * Created: March 2024
  * License: MIT
  */
