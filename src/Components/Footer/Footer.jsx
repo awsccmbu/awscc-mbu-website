@@ -52,9 +52,9 @@ function Footer() {
                 <SocialLinks />
                 
                 <div style={{position: "absolute", left: 30, bottom: 0}} className="chennai-identity">
-                    <img src={} alt="Tiruoathi Footer Logo" width={200} />
+                    <img src={img} alt="Tirupathi Footer Logo" width={200} />
                     
-                    <img src={} alt="Temple Logo" width={200} />
+                    <img src={img} alt="Temple Logo" width={200} />
                 </div>
             </Col>
 
