@@ -43,7 +43,7 @@ function Hero() {
 
       <Row className="hero-row">
         <Col lg={12} className="hero-content">
-          <h1>AWS Cloud Club Mohan Babu University</h1>
+          <h1>AWS Cloud Club <br /> Mohan Babu University</h1>
           <h4>A Technical Community of AWS for Students, By Students.</h4>
           {/* <Button className='hero-btn' onClick={scrollToAbout}>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
