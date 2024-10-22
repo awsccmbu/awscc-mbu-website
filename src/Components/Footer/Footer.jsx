@@ -10,8 +10,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
 import SocialLinks from "../SocialLinks/SocailLinks";
 
-import Lighthouse from "../../assets/img/lighthouse.png";
-import tirupatiicon from "../../assets/img/tirupatiicon.jpg";
+import Students from "../../assets/img/footer.png" ;
+
 
 function Footer() {
     return (
@@ -52,9 +52,7 @@ function Footer() {
                 <SocialLinks />
                 
                 <div style={{position: "absolute", left: 30, bottom: 0}} className="chennai-identity">
-                    <img src={tirupatiicon} alt="Tirupathi Footer Logo" width={200} />
-                    
-                    <img src={Lighthouse} alt="Logo" width={200} />
+                    <img src={Students} alt="students icon" width={300} />
                 </div>
             </Col>
 

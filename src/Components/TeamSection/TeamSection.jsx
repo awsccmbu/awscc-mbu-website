@@ -5,11 +5,11 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 
 import "./TeamSection.css"
 
-import Jeswin from "../../assets/img/team/jeswin1.jpg"
-import Porselvan from "../../assets/img/team/porselvan.jpg"
-import Sakkthivel from "../../assets/img/team/sakkthi.jpg"
-import Madhav from "../../assets/img/team/madhav1.jpg"
-import Rishab from "../../assets/img/team/rishab2.jpg"
+import Leena from "../../assets/img/team/leena.jpg"
+import Dinesh from "../../assets/img/team/dinesh.jpg"
+import Rakesh from "../../assets/img/team/rakesh.jpg"
+import Rahul from "../../assets/img/team/rahul.jpg"
+import Charishma from "../../assets/img/team/charishma.jpg"
 import TeamCard from '../TeamCard/TeamCard';
 
 function TeamSection() {
@@ -34,7 +34,7 @@ function TeamSection() {
         <Col lg="5">
             <TeamCard 
             quote="Take the first step today <br /> In the stairs to Reach the Cloud" 
-            image={Madhav} title="Rahul Kothuri" 
+            image={Rahul} title="Rahul Kothuri" 
             designation="AWS Cloud Club Captain"
             connect="https://www.linkedin.com/in/rahul-kothuri-565717186/" />
         </Col>
@@ -43,30 +43,30 @@ function TeamSection() {
         <Col lg="3" className='left-member' >
             <TeamCard 
             quote="The infrastructure of the future is being built by technology, with the architect, AWS cloud." 
-            image={Sakkthivel} title="Sakkthivel T"  
+            image={Rakesh} title="Rakesh V"  
             designation="Technology Lead"
-            connect="https://www.linkedin.com/in/sakkthivelt/"/>
+            connect="https://www.linkedin.com/in/rakeshvalasala/"/>
         </Col>
         <Col lg="3" className='right-member' >
             <TeamCard quote="Scale Your Dreams with AI, <br /> Fuel Your Ambitions with AWS. <br />" 
-            image={Porselvan} title="Porselvan P" 
-            designation="Aritificial Intelligence Lead"
-            connect="https://www.linkedin.com/in/porselvan-p-459596232/"/>
+            image={Dinesh} title="Sai Dinesh" 
+            designation="Cloud Lead"
+            connect="https://www.linkedin.com/in/saidineshd/"/>
         </Col>
 
         <Col lg="3" className='right-member' >
             <TeamCard quote="Just keep on increasing your FullStack. At one point, you will Reach the Cloud" 
-            image={Rishab} 
-            title="Rishab H" 
-            designation="Full-Stack Lead"
-            connect="https://www.linkedin.com/in/hrishab59/"/>
+            image={Leena} 
+            title="Leena G" 
+            designation="Event Management Lead"
+            connect="https://www.linkedin.com/in/leena-geepalem/"/>
         </Col>
 
         <Col lg="3"  className='right-member'>
             <TeamCard quote="Cloud connects servers, while a Community connects people. <br />" 
-            image={Jeswin} title="Jeswin Joseph J" 
-            designation="Social Outreach Lead"
-            connect="https://www.linkedin.com/in/jeswinjosephj/"/>
+            image={Charishma} title="Charishma R" 
+            designation="Certification Helper"
+            connect="https://www.linkedin.com/in/charishma-reddy-65b685290/"/>
         </Col>
 
       </Row>

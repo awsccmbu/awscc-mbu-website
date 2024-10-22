@@ -5,9 +5,11 @@ import ImageGallery from "react-image-gallery";
 import "./GallerySection.css";
 import SectionHeader from '../SectionHeader/SectionHeader';
 
-import inauguration1 from '../../assets/img/events/inauguration1.jpg';
-import inauguration2 from '../../assets/img/events/inauguration2.jpg';
-import inauguration3 from '../../assets/img/events/inauguration4.jpg';
+import inauguration1 from '../../assets/img/events/inaugration1.jpg';
+import inauguration2 from '../../assets/img/events/inaugration2.jpg';
+import Genai from '../../assets/img/events/genaifestival.jpg';
+import quest1 from '../../assets/img/events/quest1.jpg';
+import quest2 from '../../assets/img/events/quest2.jpg';
 
 function GallerySection() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -34,8 +36,16 @@ function GallerySection() {
       thumbnail: inauguration2,
     },
     {
-      original: inauguration3,
-      thumbnail: inauguration3,
+      original: Genai,
+      thumbnail: Genai,
+    },
+    {
+      original: quest1,
+      thumbnail: quest1,
+    },
+    {
+      original: quest2,
+      thumbnail: quest2,
     },
   ];
 
